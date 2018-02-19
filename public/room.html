@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Room</title>
+    </head>
+    <link rel="stylesheet" type="text/css" href="/css/room.css">
+    <link rel="stylesheet" type="text/css" href="/css/all.css">
+    <body>
+        <div id="reply_div">
+            <div id="topic_box">
+                <div id ="topic_title"></div>
+                <div id ="topic_desp"></div>
+            </div>
+            <input type="text" id="replyMsg" placeholder="Enter Reply"/>
+            <button id="replyBtn">Reply</button>
+            <button id = "chatroomBtn">topic chatroom</button>
+            <div id = reply_display></div>
+        </div>
+        
+        <div id="chat_room">
+            <div id="display"></div>
+            <div id="sendBox">
+                <input type="text" id="msg"/>
+                <button id="send">Send</button>
+                <div id="chat_status"></div>
+            </div>
+            
+        </div>
+        <div id="status"></div>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="/scripts/roombundle.js"></script>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Post</title>
+    </head>
+    <link rel="stylesheet" type="text/css" href="/css/post.css">
+    <link rel="stylesheet" type="text/css" href="/css/all.css">
+    <body>
+        <button type="button" id="logoutBtn">Log out</button>
+        <button id="privateChatBtn">private chat</button>
+        <input type="text" placeholder="Post Name" id="room" />
+        <textarea cols="40" rows="5" type="text" placeholder="Post Description" id="desp"></textarea>
+        <button id='create'>Create</button>
+        <div id="allRooms"></div>
+        
+        <div id="privateChatRoom">
+            <div id="display"></div>
+            <div id="online_users"></div>
+            <div id="sendBox">
+                <input type="text" id="msg" placeholder="/w <username> <message>"/>
+                <button id="send">Send</button>
+                <div id="chat_status"></div>
+            </div>
+        </div>
+    </body>
+    <script src="/scripts/postbundle.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+</html>

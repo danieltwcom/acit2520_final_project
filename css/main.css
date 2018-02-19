@@ -1,0 +1,36 @@
+* {
+    align-items: center;
+    margin:auto;
+    text-align: center;
+}
+body{
+    background-color: #4c4c4c;
+    background-size: 100vw 100vh;
+}
+#username{
+    display: none;
+}
+#email{
+    display: block;
+}
+#password{
+    display: block;
+}
+#loginBtn{
+    color: black;
+}
+#regBtn{
+    color: black;
+
+}
+#submitBtn{
+    display: block;
+}
+#toy1{
+    margin-top: 4%;
+    width: 10%;
+    height: 10%;
+}
+#input_div{
+    margin-top: 4%;
+}

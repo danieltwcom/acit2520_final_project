@@ -1,0 +1,42 @@
+body{
+    font-family: sans-serif;
+    margin:0;
+    padding:0;
+}
+a {
+    text-decoration: none;
+}
+textarea{
+    margin-bottom:4px;
+    border:2px solid;
+    outline:0;
+}
+textarea[type=text]{
+    font-family: sans-serif;
+    font-weight:bold;
+    background-color: #fffb89;
+    text-align: left;
+}
+input{
+    margin-bottom:4px;
+    border:2px solid;
+    height: 25px;
+    outline:0;
+    text-align: left;
+}
+input[type=text]{
+    background-color: #fffb89;
+    font-family: sans-serif;
+    font-weight:bold;
+}
+button, button:focus {
+    margin-bottom:4px;
+    background:url("/images/8bitbutton.png"); 
+    text-transform: uppercase;
+    font-weight: bold;
+    width:auto;
+    height:50px;
+    background-size:100% 100%;
+    border:none;
+    outline:0;
+}

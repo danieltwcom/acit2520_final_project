@@ -1,0 +1,90 @@
+* {
+    align-items: center;
+    margin:auto;
+    text-align: center;
+}
+body{
+    background-image: url("/images/postBackground.jpg");
+    background-size: 100vw 100vh;
+    
+}
+#title{
+    display:inline-block;
+    margin-left:2vw;
+}
+.post_div{
+    width: 70vw;
+    background-color:#c4d0ff;
+    padding: 5px;
+    margin-bottom: 4px;
+    border: 2px solid black;
+}
+#privateChatRoom{
+    width: 400px;
+    height: 30vh;
+    border: 2px solid;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    background-color: white;
+    display: none;
+    padding-bottom: 50px;
+}
+#chat_status{
+    position:relative;
+    bottom:0;
+    left:0;
+}
+#sendBox{
+      position: absolute;
+      bottom: 0;
+      right: 1vw;
+  }
+#chat_room{
+    display: none;
+}
+#chatroomBtn{
+    display: inline-block;
+    border: 1px solid;
+}
+#online_users{
+    background-color: #a4ff9e;
+    border-right:2px solid;
+    position:absolute;
+    display: block;
+    height:100%;
+    left:0;
+    overflow: auto;
+    width: 35%;
+}
+.username{
+    text-align: left;
+    margin-left: 2px;
+    display: block;
+    width:65%;
+    position: relative;
+    float:left;
+}
+#room{
+    display: block;
+}
+#desp{
+    display: block;
+    
+}
+#create{
+    display: block;
+}
+#msg{
+    text-align: left;
+}
+#display{
+    float:right;
+    width: 65%;
+    height:90%;
+    overflow: auto;
+}
+#post_desp{
+    color: #4f4f4f;
+    font-size: 15px;
+}
